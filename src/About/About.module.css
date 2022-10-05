@@ -1,0 +1,27 @@
+.aboutBlock {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    padding-bottom: 20px;
+    background-color: #f7e600;
+}
+
+.title {
+    padding: 20px;
+}
+
+.aboutContainer {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+}
+
+.aboutSkills {
+    gap: 35px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}

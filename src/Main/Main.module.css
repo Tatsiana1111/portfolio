@@ -1,0 +1,19 @@
+.mainBlock {
+    padding: 20px;
+    background-color: #f78800;
+}
+
+.container {
+    min-height: 100vh;
+    gap: 20px;
+}
+
+.text {
+    text-align: center;
+}
+
+.photo {
+    width: 300px;
+    height: 400px;
+    background-color: #ffffff;
+}
