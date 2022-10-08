@@ -5,7 +5,7 @@ import styleContainer from "../common/styles/Container.module.css";
 export const Footer = () => {
     return (
         <div className={style.footerBlock}>
-            <div className={`${styleContainer.container} ${style.container}`}>
+            <div className={`${styleContainer.container}`}>
                 <h3 className={style.title}>TATSIANA SHKET</h3>
                 <div className={style.linksBlock}>
                     <div><a className={style.link}
