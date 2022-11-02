@@ -27,6 +27,7 @@ export const Portfolio = () => {
                 <h2 className={style.title}>PORTFOLIO</h2>
                 <div className={style.projects}>
                     {projects.map(project => <Project
+                        key={project.title}
                         image={project.image}
                         title={project.title}
                         description={project.description}

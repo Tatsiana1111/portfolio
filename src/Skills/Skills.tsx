@@ -49,6 +49,7 @@ export const Skills = () => {
                 <h2 className={style.title}>SKILLS</h2>
                 <div className={style.aboutSkills}>
                     {skills.map(skill => <Skill
+                        key={skill.title}
                         icon={skill.icon}
                         title={skill.title}
                         description={skill.description}
