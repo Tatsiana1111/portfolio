@@ -22,7 +22,7 @@ export const Portfolio = () => {
         },
     ])
     return (
-        <div className={style.portfolioBlock}>
+        <div id={'/portfolio'} className={style.portfolioBlock}>
             <div className={`${styleContainer.container} ${style.container}`}>
                 <h2 className={style.title}>PORTFOLIO</h2>
                 <div className={style.projects}>

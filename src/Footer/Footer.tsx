@@ -9,15 +9,17 @@ export const Footer = () => {
                 <h3 className={style.title}>TATSIANA SHKET</h3>
                 <div className={style.linksBlock}>
                     <div><a className={style.link}
-                            href="https://www.linkedin.com/">LINKEDIN</a></div>
+                            href="https://www.linkedin.com/in/tatsiana-shket-a57949206/">
+                        linkedin
+                    </a></div>
                     <div><a className={style.link}
-                            href="https://web.telegram.org/">TELEGRAM</a></div>
+                            href="https://t.me/tshket">telegram</a></div>
                     <div><a className={style.link}
-                            href="https://www.instagram.com/">INSTAGRAM</a></div>
-                    <div><a className={style.link} href="https://twitter.com">TWITTER</a>
+                            href="https://github.com/Tatsiana1111">github</a></div>
+                    <div><a className={style.link} href="https://www.codewars.com/users/Tatsiana1111">codewars</a>
                     </div>
                 </div>
-                <p>all rights reserved © 2022</p>
+                <p className={style.p}>all rights reserved © 2022</p>
             </div>
         </div>
     );

@@ -1,6 +1,9 @@
 .header {
-    height: 70px;
-    background-color: #dd0303;
+    z-index: 1000;
+    position: fixed;
+    min-height: 10vh;
+    width: 100%;
+    background-color: #212228;
     display: flex;
     justify-content: center;
     align-items: center;

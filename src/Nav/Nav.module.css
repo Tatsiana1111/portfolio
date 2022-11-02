@@ -1,15 +1,18 @@
 .nav {
-    width: 300px;
+    min-width: 320px;
     display: flex;
     justify-content: space-between;
 }
 
 .link {
-    color: white;
+
+    font-weight: bold;
+    font-size: 15px;
+    color: #d1cfc3;
     text-decoration: none;
 }
 
 .link:hover {
-    color: #fde700;
+    color: #828282;
     transition: 0.5s;
 }

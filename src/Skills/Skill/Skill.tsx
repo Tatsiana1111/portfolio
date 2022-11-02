@@ -1,8 +1,8 @@
 import React from 'react';
-import style from './Skills.module.css';
-import {SkillsType} from "../About";
+import style from './Skill.module.css';
+import {SkillsType} from "../Skills";
 
-export const Skills = (props: SkillsType) => {
+export const Skill = (props: SkillsType) => {
     return (
         <div className={style.skills}>
             <div className={style.square}><img className={style.icon} src={props.icon} alt={props.title}/></div>

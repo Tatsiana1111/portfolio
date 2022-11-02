@@ -4,10 +4,16 @@
     justify-content: center;
     min-height: 100vh;
     padding-bottom: 20px;
-    background-color: #f7e600;
+    background-image: url("https://oir.mobi/uploads/posts/2021-06/1623557684_14-oir_mobi-p-cherno-belaya-priroda-priroda-krasivo-foto-15.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
 }
 
 .title {
+    font-size: xx-large;
     padding: 20px;
 }
 
@@ -19,7 +25,7 @@
 }
 
 .aboutSkills {
-    gap: 35px;
+    gap: 15px;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
