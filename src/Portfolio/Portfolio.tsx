@@ -16,8 +16,8 @@ export const Portfolio = () => {
             description: 'Accumsan lacus vel facilisis volutpat. Cras pulvinar mattis nunc sed blandit'
         },
         {
-            image: 'https://media.istockphoto.com/vectors/set-of-blue-led-digital-clock-number-isolated-on-black-background-vector-id1169714069?k=20&m=1169714069&s=612x612&w=0&h=vPBKZd4bDTfEjtvujha_EsEJq-Uymn2URcPZtqxThxw=',
-            title: 'Counter',
+            image: 'https://camo.githubusercontent.com/4cedcfc0d2deed6ac298d9454dac617a8cbcec25b1ad3070fb24ebf0106b587d/68747470733a2f2f696d6775722e636f6d2f633237754663392e6a7067',
+            title: 'Pizza',
             description: 'Faucibus scelerisque eleifend donec pretium.Tempus iaculis urna id volutpat lacus.'
         },
     ])

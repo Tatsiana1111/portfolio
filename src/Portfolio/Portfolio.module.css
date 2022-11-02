@@ -1,7 +1,12 @@
 .portfolioBlock {
     min-height: 100vh;
     padding-bottom: 20px;
-    background-color: #18191d;
+    background-image: url("https://img.freepik.com/premium-photo/rock-stone-abstract-background-texture_41969-1525.jpg?w=2000");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
     justify-content: center;
