@@ -2,6 +2,12 @@
     box-sizing: border-box;
 }
 
+.button {
+    padding-top: 20px;
+    margin: 0 auto;
+    max-width: 200px;
+}
+
 .mainBlock {
     padding: 10px;
     background-image: url("https://wallpaperaccess.com/full/1560888.jpg");
@@ -54,11 +60,21 @@
     }
 }
 
+@media (max-width: 950px) {
+    .button {
+        display: none;
+    }
+
+}
 
 @media (max-width: 420px) {
     .photo {
         width: 250px;
         height: 350px;
+    }
+
+    .button {
+        display: none;
     }
 
     .kvadr {
@@ -71,6 +87,10 @@
     .photo {
         width: 250px;
         height: 350px;
+    }
+
+    .button {
+        display: none;
     }
 
     .kvadr {

@@ -12,7 +12,7 @@ export const Project = (props: ProjectPropsType) => {
         <div className={style.projectBlock}>
             <div className={style.projectBlock}>
                 <div><img className={style.image} src={props.image} alt={props.title}/></div>
-                <Button title={'VIEW PROJECT'}/>
+                <span className={style.button}><Button title={'VIEW PROJECT'}/></span>
             </div>
             <h3>{props.title}</h3>
             <span>{props.description}</span>

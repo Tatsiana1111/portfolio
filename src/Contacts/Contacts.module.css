@@ -75,6 +75,11 @@
     box-shadow: 0 0 0 0.2rem rgba(158, 158, 158, 0.25);
 }
 
+.button {
+    margin-top: 20px;
+    max-width: 200px;
+}
+
 .link {
     text-decoration: none;
     color: white;

@@ -7,6 +7,11 @@
     align-items: center;
 }
 
+.button {
+    margin-top: 20px;
+    max-width: 200px;
+}
+
 .image {
     width: 250px;
 }
