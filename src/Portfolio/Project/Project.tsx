@@ -12,7 +12,8 @@ export const Project = (props: ProjectPropsType) => {
         <div className={style.projectBlock}>
             <div className={style.projectBlock}>
                 <div><img className={style.image} src={props.image} alt={props.title}/></div>
-                <span className={style.button}><Button title={'VIEW PROJECT'}/></span>
+                <span className={style.button}><a href="Tatsiana1111.github.io/todolist"><Button
+                    title={'VIEW PROJECT'}></Button></a></span>
             </div>
             <h3>{props.title}</h3>
             <span>{props.description}</span>

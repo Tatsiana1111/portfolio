@@ -19,7 +19,7 @@ export const Footer = () => {
                     <div><a className={style.link} href="https://www.codewars.com/users/Tatsiana1111">codewars</a>
                     </div>
                 </div>
-                <p className={style.p}>all rights reserved © 2022</p>
+                <p className={style.p}>all rights reserved © 2023</p>
             </div>
         </div>
     );
