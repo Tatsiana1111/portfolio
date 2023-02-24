@@ -6,6 +6,7 @@ export type ProjectPropsType = {
     image: string
     title: string
     description: string
+    href: string
 }
 export const Project = (props: ProjectPropsType) => {
     return (
@@ -13,9 +14,8 @@ export const Project = (props: ProjectPropsType) => {
             <div className={style.projectBlock}>
                 <div><img className={style.image} src={props.image} alt={props.title}/></div>
                 <span className={style.button}>
-                    <a rel='noopener noreferrer' href="Tatsiana1111.github.io/todolist">
-                        <Button
-                            title={'VIEW PROJECT'}></Button>
+                    <a target='_blank' href={props.href}>
+                        <Button title={'VIEW PROJECT'}/>
                     </a>
                 </span>
             </div>
