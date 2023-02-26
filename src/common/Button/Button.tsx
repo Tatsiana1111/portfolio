@@ -3,13 +3,14 @@ import style from './Button.module.css';
 
 type ButtonPropsType = {
     title: string
+    onClick?: () => void
 
 }
 
 export const Button = (props: ButtonPropsType) => {
     return (
-        <button
-            className={style.button}>{props.title}</button>
+        <button onClick={props.onClick}
+                className={style.button}>{props.title}</button>
     );
 };
 
