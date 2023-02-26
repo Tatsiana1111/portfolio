@@ -18,27 +18,27 @@ export const Skills = () => {
         {
             icon: html,
             title: 'HTML',
-            description: 'Lorem ipsum dolor sit amet, consectetur a dolore magna aliqua. Gravida arcu ac tortor dignissim convallis aenean.'
+            description: 'The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser.'
         },
         {
             icon: css,
             title: 'CSS',
-            description: 'Commodo viverra maecenas accumsan lacus vel facilisis volutpat. Cras pulvinar mattis nunc sed blandit.'
+            description: 'Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language such as HTML or XML.'
         },
         {
             icon: js,
             title: 'JS',
-            description: 'Lectus magna fringilla urna porttitor rhoncus dolor purus non. Tempus iaculis urna id volutpat lacus. Faucibus scelerisque eleifend donec pretium.'
+            description: 'JavaScript, often abbreviated as JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS.'
         },
         {
             icon: ts,
             title: 'TS',
-            description: 'Tempus impus iaculis urna id volutpat lacus. Faucibus scelerisque eleifend donec pretium.'
+            description: 'TypeScript is a free and open source high-level programming language developed and maintained by Microsoft. It is a strict syntactical superset of JavaScript and adds optional static typing to the language.'
         },
         {
             icon: react,
             title: 'React',
-            description: 'Interdum varius sit amet mattis vulputate enim nulla aliquet. Turpis cursus in hac habitasse platea dictumst.'
+            description: 'React (also known as React.js or ReactJS) is a free and open-source front-end JavaScript library for building user interfaces based on components.'
         },
 
 
