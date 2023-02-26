@@ -39,6 +39,7 @@ export const Contacts = () => {
                 <form id='contactForm' onSubmit={handleSubmit(sendMail)} className={style.form} action="">
                     <span className={style.text}>Phone <a className={style.link} href="tel:+375(29)111-02-61">
                         <span>+375(29)111-02-61</span></a></span>
+                    <span>You can send me message on email</span>
                     <input placeholder='Enter your name or email' {...register("email")} className={style.input}
                            type="text"/>
                     <textarea placeholder='Enter your message' {...register("message")}
