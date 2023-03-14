@@ -23,7 +23,11 @@ export const Contacts = () => {
         sendForm('service_xieh7ui', 'template_4o5ikql', '#contactForm', '-Nf-Lep7B5XtWi-tv')
             .then(
                 (result) => {
-                    console.log(result.text);
+
+                    if (result.status === 200) {
+                        alert('Your message has been sent successfully!')
+                    }
+
                 },
                 (error) => {
                     console.log(error.text);
