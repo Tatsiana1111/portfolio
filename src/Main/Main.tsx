@@ -13,7 +13,7 @@ const Main = () => {
                     <h1>I AM TATSIANA SHKET</h1>
                     <span className={style.span}>FRONTEND DEVELOPER</span>
                     <p className={style.button}>
-                        <a href={require('../common/files/cv.pdf')} target="_blank">
+                        <a href={require('../common/files/Tatsiana_Shket_CV.pdf')} target="_blank">
                             <Button title={'Download CV'}/>
                         </a>
                     </p>
