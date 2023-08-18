@@ -6,10 +6,10 @@ import {Project, ProjectPropsType} from "./Project/Project";
 export const Portfolio = () => {
     let [projects, setProjects] = useState<ProjectPropsType[]>([
         {
-            image: 'https://media.istockphoto.com/photos/to-do-list-in-spiral-notepad-isolated-on-desk-picture-id1330040188?b=1&k=20&m=1330040188&s=170667a&w=0&h=3qCVSmD_-jOhmekoFh_0oH5KYGEjvcaK2azWkT-ZRYU=',
-            title: 'Todolist',
-            description: 'Very convenient daily application for planning tasks for the day.',
-            href: "https://github.com/Tatsiana1111/todolist",
+            image: 'https://cdn.siasat.com/wp-content/uploads/2022/07/Instagram_1.jpg',
+            title: 'Instareplica',
+            description: 'Good app to share thoughts and photos with friends.',
+            href: "https://github.com/sousva/inctagram",
         },
         {
             image: 'https://img.freepik.com/premium-photo/social-media-icons-logos-mobile-phone-screen-3d_125322-174.jpg?w=2000',
